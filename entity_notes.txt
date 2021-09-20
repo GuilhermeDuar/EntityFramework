@@ -1,0 +1,15 @@
+admgps
+prowaysup
+
+install-package Microsoft.EntityFrameworkCore
+install-package Microsoft.EntityFrameworkCore.SqlServer
+install-package Microsoft.EntityFrameworkCore.Tools
+install-package microsoft.entityframeworkcore.design
+
+Add-Migration Initial
+update-database
+
+
+isUnicode -> se true dois bytes por caracter e aceita tudo
+isRequires -> define para not null
+isUnique -> torna unico e add no indice da tabela 
